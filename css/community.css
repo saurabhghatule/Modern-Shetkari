@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #f0f0f0;
+    overflow-y: auto;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.contacts {
+    padding: 20px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-name {
+    font-weight: bold;
+}
+
+.contact-status {
+    color: #777;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    width: 70%;
+    margin: 0 auto;
+}
+.suggestion-container {
+width: 80%; /* Increased width */
+height: 45vh; /* Increased height */
+margin: 20px auto;
+display: flex;
+}
+.suggestions {
+width: 45%; /* Adjusted width */
+height: 100%;
+overflow-y: auto; /* Vertical scrolling */
+background-color: #f0f0f0;
+padding: 10px;
+margin-right: 20px; /* Added gap */
+}
+.comments {
+width: 55%; /* Adjusted width */
+height: 100%;
+overflow-x: auto; /* Horizontal scrolling */
+white-space: nowrap; /* Prevents comments from wrapping */
+background-color: #e0e0e0;
+padding: 10px;
+}
+.suggestion {
+padding: 10px;
+border-bottom: 1px solid #ccc;
+}
+.comment {
+display: inline-block;
+padding: 10px;
+margin-right: 10px;
+background-color: #ccc;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    padding: 15px 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ccc;
+}
+
+.suggestion-box {
+    width: 30%;
+    float: left;
+    padding: 20px;
+}
+
+.comments-box {
+    width: 70%;
+    float: right;
+    padding: 20px;
+}

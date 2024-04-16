@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c6ffe3;
+}
+
+    .login-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      height: 50%;
+      width: 35%;
+    }
+
+    .login-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .login-container input[type="text"],
+    .login-container input[type="email"],
+    .login-container input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    .login-container input[type="submit"] {
+      width: 30%;
+      background-color: #00e673;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-left: 35%;
+     font-size: 16px;
+    }
+
+    .login-container input[type="submit"]:hover {
+      background-color: #00b359;
+    }
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-button button {
+    background-color: #00e673;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 30%;
+    margin-top: 20px;
+}
+
+.center-button button:hover{
+  background-color: #00b359;
+}
+.no-underline {
+    text-decoration: none;
+}
+
+
+    .glow-text {
+            font-size: 30px;
+            /* text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00; */
+            animation: glow 1.5s infinite alternate;
+        }
+
+        @keyframes glow {
+        0% {
+            text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
+        }
+        50% {
+            text-shadow: none;
+        }
+        100% {
+            text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
+        }
+    }
