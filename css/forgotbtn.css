@@ -1,0 +1,117 @@
+/* Responsive */
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e90ff, #ff7f50);
+    color: #333;
+}
+
+/* Container */
+.forgot_container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Headings */
+.forgot_container h2 {
+    margin-bottom: 20px;
+    color: #1e90ff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Inputs */
+.forgot_container input[type="text"],
+.forgot_container input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.forgot_container input[type="text"]:focus,
+.forgot_container input[type="password"]:focus {
+    border-color: #1e90ff;
+    outline: none;
+}
+
+/* Submit Button */
+.forgot_container input[type="submit"] {
+    width: 30%;
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.forgot_container input[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Text Glow */
+.text-glow {
+    text-shadow: 0 0 10px #1e90ff, 0 0 20px #1e90ff, 0 0 30px #1e90ff, 0 0 40px #1e90ff, 0 0 50px #1e90ff;
+}
+
+/* Center Button */
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.center-button button {
+    background-color: #1e90ff;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.center-button button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* No Underline */
+.no-underline {
+    text-decoration: none;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    .forgot_container {
+        width: 90%;
+    }
+}

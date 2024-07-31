@@ -1,0 +1,142 @@
+[
+  {
+      "name": "Phantom 4 Pro",
+      "crop": "Wheat",
+      "price": "$1499",
+      "date": "2024-05-09",
+      "description": "The Phantom 4 Pro is a versatile drone suitable for agricultural applications, including monitoring wheat fields. With its advanced camera capabilities and precise controls, it provides valuable insights into crop health and growth."
+  },
+  {
+      "name": "Mavic Air 2",
+      "crop": "Corn",
+      "price": "$799",
+      "date": "2024-05-09",
+      "description": "The Mavic Air 2 is an excellent choice for monitoring corn fields. Its compact size and powerful camera allow for detailed aerial imaging, helping farmers assess crop conditions and identify areas that require attention."
+  },
+  {
+      "name": "Inspire 2",
+      "crop": "Soybeans",
+      "price": "$2999",
+      "date": "2024-05-09",
+      "description": "The Inspire 2 offers professional-grade features for monitoring soybean fields. Its dual-camera system and stability make it ideal for capturing high-quality images and videos, enabling farmers to make informed decisions about crop management."
+  },
+  {
+      "name": "Matrice 300 RTK",
+      "crop": "Rice",
+      "price": "$7499",
+      "date": "2024-05-09",
+      "description": "The Matrice 300 RTK is a high-performance drone designed for precision agriculture, including rice cultivation. Its robust construction and advanced flight capabilities ensure reliable performance in challenging environments, providing accurate data for crop analysis."
+  },
+  {
+      "name": "Phantom 4 Multispectral",
+      "crop": "Barley",
+      "price": "$5999",
+      "date": "2024-05-09",
+      "description": "The Phantom 4 Multispectral is tailored for agricultural applications such as monitoring barley fields. Equipped with a multispectral camera, it captures spectral data to assess crop health and optimize farming practices for improved yield and quality."
+  },
+  {
+      "name": "AgEagle RX48",
+      "crop": "Cotton",
+      "price": "$12499",
+      "date": "2024-05-09",
+      "description": "The AgEagle RX48 is specifically designed for precision agriculture, including cotton farming. With its high-resolution camera and advanced sensors, it provides detailed insights into crop health and helps optimize resource management for increased productivity."
+  },
+  {
+      "name": "Yuneec H520",
+      "crop": "Sugarcane",
+      "price": "$2499",
+      "date": "2024-05-09",
+      "description": "The Yuneec H520 is a reliable choice for monitoring sugarcane plantations. Its stable flight and long battery life enable extended aerial surveys, allowing farmers to assess crop growth and detect potential issues early for timely intervention."
+  },
+  {
+      "name": "DJI Agras T20",
+      "crop": "Potatoes",
+      "price": "$16999",
+      "date": "2024-05-09",
+      "description": "The DJI Agras T20 is a heavy-lift drone designed for large-scale agriculture, including potato farming. Equipped with a powerful spraying system, it efficiently applies fertilizers and pesticides, ensuring uniform coverage and optimal crop protection."
+  },
+  {
+      "name": "Parrot Bluegrass Fields",
+      "crop": "Oats",
+      "price": "$4799",
+      "date": "2024-05-09",
+      "description": "The Parrot Bluegrass Fields is an all-in-one drone solution for oat cultivation. With its multispectral sensor and dedicated software, it provides actionable data for precision farming, helping farmers make data-driven decisions to enhance oat yield and quality."
+  },
+  {
+      "name": "Autel Robotics EVO II",
+      "crop": "Sorghum",
+      "price": "$1995",
+      "date": "2024-05-09",
+      "description": "The Autel Robotics EVO II is a versatile drone suitable for monitoring sorghum fields. Its high-resolution camera and intelligent flight modes enable efficient data collection, empowering farmers with insights to optimize crop management practices."
+  },
+  {
+      "name": "Hasselblad A6D-100c",
+      "crop": "Millet",
+      "price": "$5999",
+      "date": "2024-05-09",
+      "description": "The Hasselblad A6D-100c is a professional aerial camera system ideal for millet cultivation. With its high-resolution imaging capabilities and precise color accuracy, it provides valuable data for monitoring millet fields and optimizing farming strategies."
+  },
+  {
+      "name": "Sensefly eBee X",
+      "crop": "Sesame",
+      "price": "$12999",
+      "date": "2024-05-09",
+      "description": "The Sensefly eBee X is a professional mapping drone suitable for sesame farming. Its endurance and coverage capabilities allow for large-scale aerial surveys, providing accurate data for crop analysis and efficient farm management."
+  },
+  {
+      "name": "Skydio 2",
+      "crop": "Sunflower",
+      "price": "$999",
+      "date": "2024-05-09",
+      "description": "The Skydio 2 is an autonomous drone with advanced obstacle avoidance, making it ideal for monitoring sunflower fields. Its compact design and intelligent flight features enable precise data collection, facilitating better decision-making in sunflower cultivation."
+  },
+  {
+      "name": "PowerVision PowerEgg X",
+      "crop": "Rye",
+      "price": "$899",
+      "date": "2024-05-09",
+      "description": "The PowerVision PowerEgg X is a versatile drone suitable for rye farming. With its weatherproof design and AI-powered camera, it provides reliable performance in various conditions, delivering valuable insights to optimize rye cultivation."
+  },
+  {
+      "name": "Draganflyer Commander",
+      "crop": "Quinoa",
+      "price": "$4999",
+      "date": "2024-05-09",
+      "description": "The Draganflyer Commander is a professional-grade drone for quinoa cultivation. Its stability and payload capacity enable the integration of specialized sensors for precise data collection, supporting sustainable and efficient quinoa farming practices."
+  },
+  {
+      "name": "Yamaha RMax",
+      "crop": "Buckwheat",
+      "price": "$30000",
+      "date": "2024-05-09",
+      "description": "The Yamaha RMax is an unmanned helicopter designed for agricultural applications, including buckwheat farming. With its large payload capacity, it can carry spraying equipment or sensors for comprehensive crop management."
+  },
+  {
+      "name": "Freefly Alta X",
+      "crop": "Mung Beans",
+      "price": "$17995",
+      "date": "2024-05-09",
+      "description": "The Freefly Alta X is a heavy-lift drone suitable for mung bean cultivation. Its robust construction and modular design allow for flexible payload configurations, making it adaptable to various farming tasks, from aerial imaging to precision spraying."
+  },
+  {
+      "name": "Altavian Nova",
+      "crop": "Chickpeas",
+      "price": "$6999",
+      "date": "2024-05-09",
+      "description": "The Altavian Nova is a rugged fixed-wing drone designed for chickpea farming. With its long endurance and efficient flight performance, it covers large areas quickly, providing valuable data for crop monitoring and yield estimation."
+  },
+  {
+      "name": "Elistair Orion 2",
+      "crop": "Lentils",
+      "price": "$12900",
+      "date": "2024-05-09",
+      "description": "The Elistair Orion 2 is a tethered drone system suitable for lentil cultivation. Its continuous power supply and stable flight enable long-term aerial surveillance, supporting precision agriculture practices to maximize lentil yield and quality."
+  },
+  {
+      "name": "Delair UX11",
+      "crop": "Peas",
+      "price": "$18999",
+      "date": "2024-05-09",
+      "description": "The Delair UX11 is a fixed-wing drone optimized for pea farming. With its high-performance camera and integrated software, it delivers accurate data for monitoring pea fields and optimizing irrigation and fertilization strategies."
+  }
+]

@@ -1,0 +1,117 @@
+/* Responsive */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(205, 201, 201, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #002d80;
+}
+
+.search-filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-filters input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.search-filters input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+#searchButton, #resetButton {
+    padding: 12px 25px;
+    background: #002d80;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#searchButton:hover, #resetButton:hover {
+    background: #0056b3;
+}
+
+#resetButton {
+    margin-left: 10px; /* Add margin to create gap */
+}
+
+.drone-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.drone-card {
+    flex: 0 0 calc(30% - 20px);
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.drone-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.drone-card h2 {
+    font-size: 24px;
+    color: #002d80;
+    margin-bottom: 10px;
+}
+
+.drone-card p {
+    color: #444;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    .drone-card {
+        flex: 0 0 calc(50% - 20px);
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .search-filters input[type="text"] {
+        flex: 0 0 calc(50% - 10px);
+    }
+    .drone-card {
+        flex: 0 0 calc(100% - 20px);
+    }
+}
