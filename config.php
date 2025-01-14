@@ -4,7 +4,7 @@ define("server","localhost");  //database servername is localhost
 define("username","root");  //database username is root
 define("password","");   //database password is blank
 define("dbname","hackxspirit");  // database name is website_demo
-
+//db
 
 //mysql_connect is used forconnectivity
 $con = mysql_connect(server,username,password) OR die(
